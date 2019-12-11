@@ -1,0 +1,31 @@
+[
+  {
+    "key": "sms",
+    "type": "repeat",
+    "templateOptions": {
+      "addText": "Adicionar número"
+    },
+    "fieldArray": {
+      "fieldGroup": [
+        {
+          "key": "name",
+          "type": "input",
+          "templateOptions": {
+            "label": "Nome",
+            "required": true,
+            "placeholder": "Nome"
+          }
+        },
+        {
+          "key": "phone_number",
+          "type": "input",
+          "templateOptions": {
+            "label": "Nº Telefone",
+            "required": true,
+            "placeholder": "+5541933221100"
+          }
+        }
+      ]
+    }
+  }
+]
