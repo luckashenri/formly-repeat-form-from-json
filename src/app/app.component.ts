@@ -11,7 +11,7 @@ export class AppComponent {
   form = new FormGroup({});
   options: FormlyFormOptions = {};
 
-  model = [];
+  model = { sms: [{}]};
   fields: FormlyFieldConfig[];
 
   constructor(private userService: UserService) {

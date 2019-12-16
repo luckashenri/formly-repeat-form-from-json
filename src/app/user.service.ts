@@ -7,10 +7,6 @@ import { FormlyFieldConfig } from '@ngx-formly/core';
 export class UserService {
   constructor(private http: HttpClient) {}
 
-  getUser() {
-    return this.http.get<{ firstName: string, lastName: string }>('assets/json-powered/user.json');
-  }
-
   getForm() {
     return this.http.get<FormlyFieldConfig[]>('assets/json-powered/form.json');
   }
