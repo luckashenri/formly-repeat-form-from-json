@@ -1,0 +1,21 @@
+   // {
+    //   "key": "name",
+    //   "type": "input",
+    //   "templateOptions": {
+    //     "label": "Nome",
+    //     "required": true,
+    //     "placeholder": "Nome"
+    //   }
+    // },
+    // {
+    //   "key": "phone",
+    //   "type": "input",
+    //   "templateOptions": {
+    //     "label": "Telefone",
+    //     "required": true,
+    //     "placeholder": "Telefone"
+    //   }
+    // },
+    // {
+    //   "template": "<br /><div><strong>Com cópia para:</strong></div>"
+    // },

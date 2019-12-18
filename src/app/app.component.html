@@ -1,7 +1,13 @@
 <form [formGroup]="form" (ngSubmit)="submit()">
   {{form.value | json}}
+  <br /> 
+  form is valid?: {{form.valid}}
+  <br />
+  form is dirty?: {{form.dirty}}
+  <br /><br />
+  <button (click)="test()">test</button>
   <formly-form [model]="model" [fields]="fields" [options]="options" [form]="form"></formly-form>
-  <button type="submit" class="btn btn-primary submit-button">Submit</button>
+  <button type="submit" class="btn btn-primary submit-button" [disabled]="!form.valid">Submit</button>
 </form>
 
 
